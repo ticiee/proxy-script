@@ -3,6 +3,7 @@ RemoveCallbacks()
 local WHITELIST = {
     3154658,
     2629682,
+    2633322,
 }
 
 local C = {
