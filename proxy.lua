@@ -119,9 +119,9 @@ local function start(userid)
         { cmd = "/wd",   icon = 7188,  desc = "Withdraw from the bank (100 = 1 Absolute Lock).", usage = "/wd <amount>" },
         { cmd = "/tf",   icon = 7188,  desc = "Fast bank transfer to a player.",              usage = "/tf <player name> <amount>" },
         { cmd = "/tpd",  icon = 18,    desc = "Punch a tile to collect the locks on it.",     usage = "/tpd (use again to turn off)" },
-        { cmd = "/reme", icon = 32,    desc = "Spin check: first digit + last digit, keeps the last digit of the sum.", usage = "/reme (use again to turn off)" },
-        { cmd = "/leme", icon = 32,    desc = "Same as /reme.",                               usage = "/leme (use again to turn off)" },
-        { cmd = "/qeme", icon = 32,    desc = "Spin check: shows only the last digit.",       usage = "/qeme (use again to turn off)" },
+        { cmd = "/reme", icon = 32,    desc = "For reme.", usage = "/reme (use again to turn off)" },
+        { cmd = "/leme", icon = 32,    desc = "For leme.", usage = "/leme (use again to turn off)" },
+        { cmd = "/qeme", icon = 32,    desc = "For qeme.", usage = "/qeme (use again to turn off)" },
     }
 
     local LOCKS = {
