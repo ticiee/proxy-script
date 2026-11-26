@@ -631,8 +631,6 @@ local function start(userid)
     AddCallback("csn_response", "OnVarlist", response_check)
     AddCallback("csn_collect", "OnVarlist", collect_check)
     AddCallback("spin_name", "OnVarlist", fast_spin_check)
-
-    note("CSN loaded! Type " .. C.accent .. "/sc " .. C.main .. "for the command list.")
 end
 
 RunThread(function()
